@@ -14,3 +14,5 @@ Every testcase class extends TestUtilies class for reusing driver and common met
 
 
 Testsuite package contains TestNG.xml file.
+
+TestCases folder contains testcases description.For every testcase separate class is maintained in src/Test package.
