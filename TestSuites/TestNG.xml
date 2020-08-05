@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Test Suite-1">
+
+    <test name="Test Case-1">
+
+        <classes>
+           <class name="Test.TestCaseOne">
+               <methods>
+                   <include name="verifyIndexPageTitle"/>
+                   <include name="ClickMobileMenuAndVerifyTitle"/>
+                   <include name="SortByName"/>
+               </methods>
+           </class>
+        </classes>
+
+    </test>
+
+    <test name="Test Case-2">
+        <classes>
+            <class name="Test.TestCaseTwo">
+                <methods>
+                    <include name="CompareValueWithDetailsPage"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="TestCase-3">
+        <classes>
+            <class name="Test.TestCaseThree">
+                <methods>
+                    <include name="AddXperiaToCartAndEmptyCart"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+    <test name="TestCase-4">
+        <classes>
+            <class name="Test.TestCaseFour"></class>
+        </classes>
+    </test>
+
+    <test name="TestCase-5" >
+        <parameter name="username" value="ankitdeshmukh@gmail.com"/>
+        <parameter name="password" value="123456"/>
+        <parameter name="emailid" value="ankitdeshmukh@gmail.com"/>
+        <parameter name="message" value="TV Wishlist"/>
+
+        <classes>
+            <class name="Test.TestCaseFive">
+                <methods >
+                    <include name="Login" />
+                    <include name="ShareWishList"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="TestCase-6">
+        <classes>
+            <class name="Test.TestCaseSix"/>
+        </classes>
+    </test>
+
+    <test name="TestCase-7">
+        <classes>
+            <class name="Test.TestCaseSeven"/>
+        </classes>
+    </test>
+</suite>
