@@ -12,3 +12,5 @@ src/Main package contains two classes:
 src/Test package contains test implementation classes.
 Every testcase class extends TestUtilies class for reusing driver and common methods.
 
+
+Testsuite package contains TestNG.xml file.
